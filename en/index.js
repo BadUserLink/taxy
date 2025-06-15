@@ -8,8 +8,8 @@ document.getElementById('typeSelect').addEventListener('change', function() {
   var textElement = document.getElementById('text-info');
   var textElement1 = document.getElementById('text-info1');
   
-  imageElement.style.animation = 'none'; // Reset animation
-  void imageElement.offsetWidth; // Trigger reflow
+  imageElement.style.animation = 'none'; 
+  void imageElement.offsetWidth; 
   imageElement.style.display = 'block';
   textElement.style.display = 'none';
 
@@ -39,16 +39,14 @@ document.getElementById('typeSelect').addEventListener('change', function() {
 });
 
 
-// script.js
 
 document.addEventListener('DOMContentLoaded', function() {
 const stars = document.querySelectorAll('.star');
-// const ratingValue = document.getElementById('rating-value');
 
 stars.forEach(star => {
     star.addEventListener('click', function() {
         let rating = this.getAttribute('data-value');
-        // ratingValue.textContent = `Rating: ${rating}`;
+
         resetStars();
         highlightStars(rating);
     });

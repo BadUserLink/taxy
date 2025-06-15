@@ -1,7 +1,7 @@
 <?php
 function sendMessageReserve($messageText) {
-    $botToken = '7160151220:AAG3-ZgFjRLgqgvWa7_tw2b4ihB2G-znuwM';
-    $chatId = '6974753470';
+    $botToken = 'aldfhkjdfan-znuwM';
+    $chatId = 'adfnkdsf,dsf';
 
     $url = 'https://api.telegram.org/bot' . $botToken . '/sendMessage';
     $data = array(
@@ -25,8 +25,8 @@ function sendMessageReserve($messageText) {
 }
 
 function sendMessageContact($messageText) {
-    $botToken = '7175545376:AAFYLQ_VjDy1-_c7NJyESnLgqTq3ZkLNyOo';
-    $chatId = '6974753470';
+    $botToken = 'asdasdsdsadasddfnsk';
+    $chatId = 'dvsbjhdsbdsmdn';
 
     $url = 'https://api.telegram.org/bot' . $botToken . '/sendMessage';
     $data = array(

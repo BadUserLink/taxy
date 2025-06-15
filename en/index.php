@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+      <title>AzurBasTransport</title>
+    <link rel="icon" href="../images/59EBA06E-1E97-4372-9DE0-6D38D81316B6.png" type="image/x-icon">
+	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+    <!-- Include jQuery (required by Toastr) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include Toastr JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/baguettebox.js@1.11.1/dist/baguetteBox.min.css">
+  
+ <!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
+ <!-- <link href="css/moje.css" rel="stylesheet"> -->
+ <!-- <link href="style.scss" rel="stylesheet"> -->
+ 
+ <!-- <link href="css/lightbox.css" rel="stylesheet"> -->
+ <link href="../styles.css" rel="stylesheet">
+ <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+ </head>
+<body>
+<?php
+include_once '../functions.php';
+
+?>
+<div id="toastr-container"></div>
+
+	<header class="navbar-fixed-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 ">
+					<div class="navbar-header">
+                        <a class="navbar-brand" href="#top"><img src="../images/checkif.png" alt="Bridge" style="max-width:60px; margin-top: -17px;"></a>
+      					<a class="navbar-brand logo" href="#top" style="margin-left: -17px;">AzurBasTransport</a>
+                        <div class="glyphicon languages">
+                            <a class="language2 langs" href="http://azurbastransport.com/" title="Version Française">Fr</a>
+                            <a class="language langs" href="http://azurbastransport.com/en" title="English Version">En</a>
+                        </div>
+					    <button type="button" class="navbar-toggle menu-button" data-toggle="collapse" data-target="#myNavbar">
+					        <span class="glyphicon glyphicon-align-justify"></span>
+					    </button>
+					</div>
+				</div>
+			
+				<div class="col md-8">
+					<nav class="collapse navbar-collapse " id="myNavbar" role="navigation">
+					 <ul class="nav navbar-nav navbar-right menu">
+					  <li class="active"><a href="#top">Home <span class="sr-only">(current)</span></a></li>
+						<li><a class="page-scroll" href="#features">Info</a></li>
+						<li><a class="page-scroll" href="#portfolio">Prices/Reservation</a></li>
+						<li><a class="page-scroll" href="#galery">Gallery</a></li>
+						<li><a class="page-scroll" href="#contact">Contact</a></li><br>
+					</ul>
+					</nav>
+				</div>
+				
+			</div>
+		</div>
+
+	</header>
+	
+<div class="container-fluid main" id="top">
+	<div class="row">
+		<div class="col-md-12 backg img-responsive">
+			<div class="col-md-4 col-md-offset-4 textbox col-sm-6 col-sm-offset-3">
+				<h2>Welcome</h2>
+                <h1 class="rotating-text">
+                    <span>A</span>
+                    <span>z</span>
+                    <span>u</span>
+                    <span>r</span>
+                    <span>B</span>
+                    <span>a</span>
+                    <span>s</span>
+                    <span>T</span>
+                    <span>r</span>
+                    <span>a</span>
+                    <span>n</span>
+                    <span>s</span>
+                    <span>p</span>
+                    <span>o</span>
+                    <span>r</span>
+                    <span>t</span>
+                </h1>
+
+				<h3>If you want to make a <br /> reservation</h3>
+				<h4><a href="#portfolio">
+                <button class="custom-btn btn-11"><div class="dot">Click</div></button>
+                </a></h4>
+                <h5>Or call</h5>
+                <h3 class="numbere"><a href="tel:+33780068981"> +33 7 80 06 89 81 </a></h3>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<div class="container-fluid features" id="features">
+<div class="stylish box-01" style="text-align:center">
+                    <h1 class="effect-01">WELCOME TO BCTour</h1>
+                </div>
+	<div class="desc">
+		<p>
+        Our company offers a private driver service to meet all your travel needs. Our professional drivers ensure your journey in complete safety and comfort. In addition, we offer experienced tour guides to help you discover the hidden treasures of the region. Whether for a transfer from the airport to your hotel or for business trips, we guarantee a punctual and hassle-free arrival. In addition, our provision service allows you to benefit from a vehicle with driver for a specific period of time, to accompany you during your events or special days. With our company, travel with complete peace of mind and discover superior quality services.
+		</p>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+            <div class="stylish box-01" style="text-align:center">
+                    <h1 class="effect-01">Why choose AzurBasTransport?</h1>
+                </div>
+                <div class="col-sm-6 ikony-container">
+					<div class="col-md-2 ikony">
+						<i class="glyphicon glyphicon-pencil"></i>
+					</div>
+					<div class="col-md-9 col-md-offset-1 ikony-tekst">
+						<h3>Easy to order</h3>
+						<p>Thanks to the online site, you can book in 2 clicks, easily, quickly and comfortably.<p>
+					</div>
+				</div>
+				<div class="col-sm-6 ikony-container">
+					<div class="col-md-2 ikony">
+						<i class="glyphicon glyphicon-cog"></i>
+					</div>
+					<div class="col-md-9 col-md-offset-1 ikony-tekst">
+						<h3>Efficiency</h3>
+						<p>The company always works efficiently, with maximum results and without problems.<p>
+					</div>
+				</div>
+				<div class="col-sm-6 ikony-container">
+					<div class="col-md-2 ikony">
+						<i class="glyphicon glyphicon-time"></i>
+					</div>
+					<div class="col-md-9 col-md-offset-1 ikony-tekst">
+						<h3>Saves time</h3>
+						<p>Any action is performed quickly and accurately, save time with our help.<p>
+					</div>
+				</div>
+				<div class="col-sm-6 ikony-container">
+					<div class="col-md-2 ikony">
+						<i class="glyphicon glyphicon-briefcase"></i>
+					</div>
+					<div class="col-md-9 col-md-offset-1 ikony-tekst">
+						<h3>High level professionalism</h3>
+						<p>High level service and qualified staff in the field.<p>
+					</div>
+				</div>
+				<div class="col-sm-6 ikony-container">
+					<div class="col-md-2 ikony">
+						<i class="glyphicon glyphicon-user"></i>
+					</div>
+					<div class="col-md-9 col-md-offset-1 ikony-tekst">
+						<h3>User-friendly interface</h3>
+						<p>The site was created for maximum convenience and ease of use.<p>
+					</div>
+				</div>
+				<div class="col-sm-6 ikony-container">
+					<div class="col-md-2 ikony">
+						<i class="glyphicon glyphicon-heart"></i>
+					</div>
+					<div class="col-md-9 col-md-offset-1 ikony-tekst">
+						<h3>Made with love</h3>
+						<p>Everything is done with the heart for users and for maximum experience.<p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+
+<div class="container-fluid portfolio" id="portfolio">
+    <!-- <input type="checkbox" id="toggleSwitch" onchange="toggleContent()"> -->
+        <!-- <span class="slider-switch square">
+            <span class="switch-non" >Base</span>
+            <span class="switch-oui" >Event</span>
+        </span> -->
+    </label>
+        <div class="reservation">
+            <div class="form-container">
+                <form class="well form-horizontal" action="gmail_reserve.php" method="post" id="contact_form">
+                    <fieldset>
+                        <!-- Form Name -->
+                        <legend>To make a reservation! 24/7</legend>
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">Name</label>
+                            <div class="col-md-8 inputGroupContainer">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                    <input name="first_name" placeholder="Nom" class="form-control" type="text">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">E-Mail<br>(optional)</label>
+                            <div class="col-md-8 inputGroupContainer">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                    <input name="email" placeholder="E-Mail" class="form-control" type="text">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">Phone #</label>
+                            <div class="col-md-8 inputGroupContainer">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                                    <input name="phone" placeholder="(845)555-1212" class="form-control" type="text">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">From</label>
+                            <div class="col-md-8 inputGroupContainer">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                                    <input name="address" placeholder="From" class="form-control" type="text">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Text input-->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">To</label>
+                            <div class="col-md-8 inputGroupContainer">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                                    <input name="city" placeholder="To" class="form-control" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Select Basic -->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">Type</label>
+                            <div class="col-md-8 selectContainer">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                                    <select name="state" class="form-control selectpicker" id="typeSelect">
+                                        <option disabled selected>Veuillez sélectionner le type</option>
+                                        <option>Standard</option>
+                                        <option>Berlin</option>
+                                        <option>Van</option>
+                                        <option>Lux</option>
+                                        <option>Vip</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-4 control-label">Some preferences</label>
+                            <div class="col-md-8 inputGroupContainer">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                                    <textarea class="form-control" name="comment" placeholder="Type preferences"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Success message -->
+                        <!-- <div class="alert alert-success" role="alert" id="s">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div> -->
+
+                        <!-- Button -->
+                        <div class="form-group">
+                            
+                            <label class="col-md-4 control-label">
+                                <a href="viber://chat?number=%2B33780068981" target="_blank">
+                                    <i class="fab fa-viber fa-2x icn-form"></i>
+                                </a>
+
+                                <a href="https://t.me/+33780068981" target="_blank">
+                                    <i class="fab fa-telegram fa-2x icn-form"></i>
+                                </a>
+                                <a href="https://wa.me/33780068981" target="_blank">
+                                    <i class="fab fa-whatsapp fa-2x icn-form"></i>
+                                </a>
+                            </label>
+                            <div class="col-md-8">
+                                <button type="submit" class="btn btn-warning">Reserve <span class="glyphicon glyphicon-send"></span></button>
+                            </div> 
+                        </div>
+                    </fieldset>
+                    
+                </form>
+                
+            </div>
+            <div class="image-container" id="content">
+            <div>
+                <div id="text-info" class="text-info">
+                    <h4>
+                        We block our driver's schedule especially for your pick-up
+                        in charge.
+                        Services: Car with driver guaranteed at the time of booking
+                        Provision of experienced and professional drivers
+                        Personalized welcome at station and airport with sign
+                        WIFI and free bottle of water.                   
+                    </h4><br>
+                    <h4>
+                        Our Prices are Guaranteed and Fixed. You know the price of the ride before
+                        to get in the car. So forget the counter that runs and the
+                        bad surprises. You will not pay more in the event of a traffic jam or if
+                        the car is forced to make a detour in the event of work on the road.
+                        Likewise, you will not be charged any baggage supplement.
+                        azurbastransport offers you flat rates for the most popular destinations.
+                        common.
+                    </h4><br>
+                    <h4>
+                        <b>Provision :</b>
+                        You need a car with a private driver without knowing
+                        advance the various trips to come, ask us, we will put
+                        a car at your disposal as part of a package. For your ceremonies
+                        or events, we offer transfer and shuttle services
+                        Airport / Station / Hotel / Show and Party Venues, for your
+                        tranquility and security of your guests.
+                    </h4>
+                </div>
+                <div id="image-container">
+                    <h3 id="text-info1"></h3>
+                    <img id="tariffeImage" src="" alt="Tariff Image">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="galery">
+    <div class="tz-gallery">
+    <div class="stylish box-01" style="text-align:center">
+        <h1 class="effect-01">Gallery</h1>
+    </div>
+    <br><br>
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <a class="lightbox" href="../src/IMG_3042.jpg">
+                    <img src="../src/IMG_3042.jpg" alt="Bridge">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4" style="max-height:330px">
+                <a class="lightbox" href="../src/Mercedes-V.jpg">
+                    <img src="../src/Mercedes-V.jpg" alt="Park" >
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../src/photo_5221982506365087409_y.jpg">
+                    <img src="../src/photo_5221982506365087409_y.jpg" alt="Tunnel">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-8">
+                <a class="lightbox" href="../src/IMG_0376.jpg">
+                    <img src="../src/IMG_0376.jpg" alt="Traffic">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="../src/fssa.jpg">
+                    <img src="../src/fssa.jpg" alt="Coast">
+                </a>
+            </div> 
+            <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="../src/49b09df3-81a7-4722-b79a-7650ea84b10bc.JPG">
+                        <img src="../src/49b09df3-81a7-4722-b79a-7650ea84b10bc.JPG" alt="Rails">
+                    </a>
+            </div>
+            <a href="../galery/index.html" target=_blank><p style="text-align:right">(more pictures...)</p></a>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="container-fluid countspace">
+	<div class="container">
+	<div class="row">
+		<div class="col-md-12 countbg">
+			<div class="col-xs-12 col-sm-3 col-md-3">
+                <div class="counter-item">
+                    <i class="glyphicon glyphicon-cloud"></i>
+                    <div class="timer" data-from="0" data-to="100" data-speed="5000" data-refresh-interval="50"></div>
+                    <h5>Online reservations</h5>                               
+                </div>
+            </div>  
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <div class="counter-item">
+                    <i class="glyphicon glyphicon-check"></i>
+                    <div class="timer" data-from="0" data-to="88" data-speed="5000" data-refresh-interval="50"></div>
+                    <h5>Many courses successfully completed</h5>                               
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <div class="counter-item">
+                    <i class="glyphicon glyphicon-console"></i>
+                    <div class="timer" data-from="0" data-to="3297" data-speed="5000" data-refresh-interval="50"></div>
+                    <h5>DIGITAL SECURITY</h5>                                                   
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <div class="counter-item">
+                    <i class="glyphicon glyphicon-user"></i>
+                    <div class="timer" data-from="0" data-to="86" data-speed="5000" data-refresh-interval="50"></div>
+                    <h5>Satisfied customers</h5>                                                   
+                </div>     
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+
+<div class="container-fluid contact" id="reservation2">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 portfolio1">
+                <div class="stylish box-01" style="text-align:center">
+                    <h1 class="effect-01">Côte D'Azur Tourist Guide</h1>
+                </div>
+                <br>
+                <div style="text-align: left;">
+                    <p >
+                        <b> Explore the French Riviera in a different way – with a private, passionate, multilingual tour guide.</b> </br>
+                        The French Riviera is more than just a dream destination: it's a unique blend of glamour, history, nature, and the Mediterranean art of living. Whether you're looking for an elegant stroll through the streets of Monaco, a day spent wandering Provençal markets and sandy beaches, or a getaway to the hilltop villages of the hinterland, we're here to transform your stay into an authentic and unforgettable experience. 
+                            </br> </br>
+
+                        We offer personalized and private guided tours, designed according to your interests: heritage, culture, gastronomy, landscapes, emblematic places or hidden treasures. Each itinerary is carefully prepared to offer you much more than a simple excursion: a true journey through the soul of the Côte d'Azur.
+                            </br> </br>
+
+                        <b>Our professional guides are available in several languages</b>: French, English, Italian, Romanian, Russian, and more, to meet the needs of our visitors from around the world. You'll benefit from warm, quality support, with clear and informative explanations in the language of your choice..
+                            </br> </br>
+
+                        Whether it's a first visit or a romantic return to the Riviera, let us show you what the classic tours don't show..
+                        <b>Contact us now</b> to organize your ideal tour – solo, as a couple, with family or friends.
+                        With us, <b> every visit becomes a story to live </b>.
+
+                    </p>
+                </div>
+
+                <br>
+				<div class="col-md-6 col-sm-12 col-xs-12  ">
+                    <form class="well form-horizontal" action="gmail_reserve.php" method="post" id="contact_form" style="min-height:600px">
+                        <fieldset>
+                            <!-- Form Name -->
+                            <legend>Faire une réservation! 24/7</legend>
+                            <!-- Text input-->
+                            <input name="typer_req" type="hidden" value="Guide Rezerve">
+
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Nom</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                        <input name="first_name" placeholder="Nom" class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Text input-->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">E-Mail<br>(optionnelle)</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                                        <input name="email" placeholder="E-Mail" class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Text input-->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Téléphone #</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+                                        <input name="phone" placeholder="(845)555-1212" class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Text input-->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Depuis</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                                        <input name="address" placeholder="D'où" class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Text input-->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Pour</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+                                        <input name="city" placeholder="Jusqu'à où" class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Select Basic -->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label">Quelques préférences</label>
+                                <div class="col-md-8 inputGroupContainer">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+                                        <textarea class="form-control" name="comment" placeholder="Type preferences"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Success message -->
+                            <!-- <div class="alert alert-success" role="alert" id="s">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div> -->
+
+                            <!-- Button -->
+                            <div class="form-group">
+                                
+                                <label class="col-md-4 control-label">
+                                    <a href="viber://chat?number=%2B33780068981" target="_blank">
+                                        <i class="fab fa-viber fa-2x icn-form"></i>
+                                    </a>
+
+                                    <a href="https://t.me/+33780068981" target="_blank">
+                                        <i class="fab fa-telegram fa-2x icn-form"></i>
+                                    </a>
+                                    <a href="https://wa.me/33780068981" target="_blank">
+                                        <i class="fab fa-whatsapp fa-2x icn-form"></i>
+                                    </a>
+                                </label>
+                                <div class="col-md-8">
+                                    <button type="submit" class="btn btn-warning">Réserve <span class="glyphicon glyphicon-send"></span></button>
+                                </div> 
+                            </div>
+                        </fieldset>
+                        
+                    </form>
+				</div>
+                <div class="col-md-6 col-sm-12 col-xs-12 address-space">
+                    <img id="sliderImage" src="../src/1.PNG" style="max-height: 600px; width: 100%; object-fit: contain; border-radius: 10px;">
+
+                    <!-- Butoane -->
+                    <button onclick="prevImage()" style=" position: absolute;  top: 50%; left: 50px; transform: translateY(-50%); background-color: rgba(0,0,0,0.5); color: white; border: none; padding: 10px; cursor: pointer;">❮</button>
+                    <button onclick="nextImage()" style=" position: absolute;  top: 50%; right: 50px; transform: translateY(-50%); background-color: rgba(0,0,0,0.5); color: white; border: none; padding: 10px; cursor: pointer;">❯</button>
+                </div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="container-fluid contact" id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 portfolio1">
+                <div class="stylish box-01" style="text-align:center">
+                    <h1 class="effect-01">Contact</h1>
+                </div>
+                <br><br>
+				<div class="col-md-6 col-sm-12 col-xs-12  ">
+					<h2>Send the message </h2>
+					<form action="gmail_contact.php" method="post" id="feedbackForm" >
+                        <div class="star-rating">
+                            <span class="star" data-value="5">&#9733;</span>
+                            <span class="star" data-value="4">&#9733;</span>
+                            <span class="star" data-value="3">&#9733;</span>
+                            <span class="star" data-value="2">&#9733;</span>
+                            <span class="star" data-value="1">&#9733;</span>
+                        </div>
+                        <div class="form-group">
+                            <input type="hidden" name="star" id="starValue" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control form-effect" id="name" name="name" placeholder="Name" require>
+                        </div>
+                        <div class="form-group">                                 
+                            <input type="email" class="form-control form-effect" id="email" name="email"  placeholder="Mail" require>
+                        </div>
+                        <div class="form-group">
+                            <textarea type="textarea" class="form-control form-effect" id="text" name="message"  placeholder="Message"></textarea>
+                        </div>  
+                        <button type="submit" class="btn btn-default btn-sub">Submit</button>
+                    </form>
+				</div>
+				<div class="col-md-6 col-sm-12 col-xs-12 address-space">
+					<!-- <div id="map-canvas"></div> -->
+						<h3>Adresse</h3>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47175.41963220816!2d6.9717385!3d43.557444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12ce8180530cffff%3A0x40819a5fd979e20!2sCannes%2C%20France!5e0!3m2!1sen!2sus!4v1686060028774!5m2!1sen!2sus"
+                            width="600"
+                            height="400"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+					<div class="address">
+						<p><i class="glyphicon glyphicon-map-marker"></i>51 Av. Franklin Roosevelt 06110 Le Cannet </p>
+						<p><i class="glyphicon glyphicon-earphone"></i>07 80 06 89 81 | +33 7 80 06 89 81 </p>
+						<p><i class="glyphicon glyphicon-envelope"></i>guidevtcprive@gmail.com</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="totalfb">
+    <h3>Totale: <?php         
+            $totall = getDataFeedbackTotal($db); 
+            echo $totall[0];?>
+    </h3> 
+    <div class="star-rating-feed">
+        <?php
+        for ($i = 1; $i <= 5; $i++) {
+            $highlightClass = ($i <= $totall[0]) ? 'highlight' : '';
+            echo "<span class='star-feed $highlightClass' data-value='$i'>&#9733;</span>";
+        }
+        ?>
+    </div>
+
+    <div class="scroll">
+        <?php
+            $feed = getDataFeedback($db);
+            foreach ($feed as $value) { ?>
+        <div class="feed">
+            <div class="star-rating-feed">
+                <?php for ($i = 1; $i <= 5; $i++) {
+                    $highlightClass = ($i <= $value['star']) ? 'highlight' : '';
+                    echo "<span class='star-feed $highlightClass' data-value='$i'>&#9733;</span>";
+                }
+                ?>
+            </div>
+            Name: <?php echo $value['name']; ?> <br>
+            Message: <?php echo $value['comm']; ?> <br>
+        </div>
+        <?php } ?>
+    </div>
+</div>
+
+<div class="container-fluid notes">
+	<div class="row textbox1 ">
+		<div class="col-md-12 backg1 img-responsive">
+			<div class="col-md-6  col-sm-12">
+                <p ><h2>You can access us on social networks :</h2></p>
+			</div>
+				<div class="col-md-2 col-md-offset-1  col-xs-12">
+				<!-- <a href="#top"><button type="button" class="btn btn-default btn-sub">ACCÈS</button></a> -->
+                <h3>
+                    <a href="https://www.instagram.com/azurbastransport/profilecard/?igsh=MW1zc3g4Zmo2cWI4MA==" target="_blank"><i class="fab fa-instagram fa-2x icn-bottom"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61553171890400" target="_blank"><i class="fab fa-facebook fa-2x icn-bottom"></i></a>
+                    <a href="https://www.tiktok.com/@nikobas94" target="_blank"><i class="fab fa-tiktok fa-2x icn-bottom"></i></a>
+                </h3>
+
+			</div>
+		</div>
+		
+    </div>
+</div>
+
+<a href="https://wa.me/40712345678" class="whatsapp-button" target="_blank" aria-label="WhatsApp Chat">
+    <span>Text me !!!</span>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+
+</a>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.countTo.js"></script>
+    <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/lightbox.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.min.js"></script>
+
+    <script>
+        function toggleContent() {
+            const content = document.getElementById('content');
+            const isChecked = document.getElementById('toggleSwitch').checked;
+            if (isChecked) {
+                content.innerHTML = '<div class="stylish box-03"> <h2 class="effect-03">La mise à disposition de votre véhicule avec chauffeur est facturée en journée (sauf dimanches et jours fériés): la 1ère heure 60€ (15kms inclus), la 2ème heure 50€ (25kms inclus), chaque nouvelle heure commencée sera facturée 40€ et 1,50€ par kilomètre supplémentaire. le tarif nuit est de 70€/heure. Pour des mises à disposition plus longues merci de nous contacter !</h2></div>';
+            } else {
+                content.innerHTML = '<img src="../src/immmg.jpg" alt="Reservation Image">';
+            }
+        }
+
+      function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(43.57139033891758, 7.001490280229033),
+          zoom: 18,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+    <script>
+	$(document).ready(function () {
+		$(document).on("scroll", onScroll);
+ 
+		$('a[href^="#"]').on('click', function (e) {
+			e.preventDefault();
+			$(document).off("scroll");
+ 
+			$('a').each(function () {
+				$(this).removeClass('active');
+			})
+			$(this).addClass('active');
+ 
+			var target = this.hash;
+			$target = $(target);
+			$('html, body').stop().animate({
+				'scrollTop': $target.offset().top
+			}, 500, 'swing', function () {
+				window.location.hash = target;
+				$(document).on("scroll", onScroll);
+			});
+		});
+	});
+ 
+	function onScroll(event){
+		var scrollPosition = $(document).scrollTop();
+		$('nav a').each(function () {
+			var currentLink = $(this);
+			var refElement = $(currentLink.attr("href"));
+			if (refElement.position().top <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
+				$('nav ul li a').removeClass("active");
+				currentLink.addClass("active");
+			}
+			else{
+				currentLink.removeClass("active");
+			}
+		});
+	}
+   
+    jQuery(function ($) {
+      // custom formatting example
+      $('.timer').data('countToOptions', {
+        formatter: function (value, options) {
+          return value.toFixed(options.decimals).replace(/\B(?=(?:\d{3})+(?!\d))/g, ',');
+        }
+      });
+ 
+      // start all the timers
+      $('#starts').waypoint(function() {
+    $('.timer').each(count);
+	});
+ 
+      function count(options) {
+        var $this = $(this);
+        options = $.extend({}, options || {}, $this.data('countToOptions') || {});
+        $this.countTo(options);
+      }
+    });
+  	</script>
+      <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-74882275-1', 'auto');
+  ga('send', 'pageview');
+
+  
+
+</script>
+<script src="index.js"></script>
+
+</body>
+
+</html>
